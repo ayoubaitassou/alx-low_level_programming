@@ -12,6 +12,7 @@ int main(void)
 {
 	char ch = 'a';
 	char CH = 'A';
+
 	/*prints a - z*/
 	while (ch <= 'z')
 	{
@@ -25,5 +26,6 @@ int main(void)
 		CH++;
 	}
 	putchr('\n');
+
 	return (0);
 }
