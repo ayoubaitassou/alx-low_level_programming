@@ -17,7 +17,7 @@ int numLength(int num)
 	while (num)
 	{
 		num = num / 10;
-		lenghth += 1;
+		length += 1;
 	}
 	return (length);
 }
@@ -25,7 +25,7 @@ int numLength(int num)
 /**
  * main - Entry point
  *
- * Description: prints the first 98 fibonacci numbers
+ * Description: prints the first 98 Fibonacci numbers
  *              starting with 1 and 2 followd by a new line
  *
  * Return: Always 0 (success)
@@ -34,7 +34,7 @@ int numLength(int num)
 
 int main(void)
 {
-	int count, inita10s;
+	int count, initial0s;
 	unsigned long f1 = 1, f2 = 2, sum, mx = 10000000, f1o = 0, f2o = 0, sumo = 0;
 
 	for (count = 1; count <= 98; count++)
