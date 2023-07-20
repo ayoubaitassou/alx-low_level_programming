@@ -1,4 +1,4 @@
-#include"main.h"
+include"main.h"
 
 /**
  * print_diagonal - print a diagonal line
@@ -9,23 +9,17 @@
 
 void print_diagonal(int n)
 {
+	int postn, space;
 
 	if (n <= 0)
-	{
 		_putchar('\n');
-	} else
+	else
 	{
-		int i, j;
-
-		for (i = 0; i < n; i++)
+		for (postn = 0; postn <= n; postn++)
 		{
-			for (i = 0; j < n; j++)
-			{
-				if (j == i)
-					_putchar('\\');
-				else if (j < i)
-					_putchar(' ');
-			}
+			for (space = 0; space <= postn; space++)
+				_putchar(' ');
+			_putchar(92); /* is equal to '/' char */
 			_putchar('\n');
 		}
 	}
